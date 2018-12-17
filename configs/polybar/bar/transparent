@@ -1,4 +1,4 @@
-monitor = ${env:MONITOR:HDMI1}
+monitor =
 bottom = false
 fixed-center = true
 width = 100%
