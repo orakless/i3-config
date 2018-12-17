@@ -1,0 +1,30 @@
+type = internal/i3
+
+pin-workspaces = true
+strip-wsnumbers = false
+enable-scroll = true
+wrapping-scroll = true
+
+label-active-font = 4
+
+label-focused-foreground = #FFFFFF00
+label-focused = %icon%
+
+label-unfocused-foreground = #55FFFF00
+label-unfocused = %icon%
+
+label-urgent-foreground = #FFFF0000
+label-urgent = "%icon% "
+
+ws-icon-0 = 1;I
+ws-icon-1 = 2;II
+ws-icon-2 = 3;III
+ws-icon-3 = 4;IV
+ws-icon-4 = 5;V
+ws-icon-5 = 6;VI
+ws-icon-6 = 7;VII
+ws-icon-7 = 8;VIII
+ws-icon-8 = 9;IX
+ws-icon-9 = 10;X
+
+label-separator = " "

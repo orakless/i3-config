@@ -1,0 +1,5 @@
+type = internal/date
+
+interval = 1.0
+time = %H:%M
+label = %time%

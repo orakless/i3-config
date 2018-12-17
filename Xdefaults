@@ -1,0 +1,58 @@
+! ------------------------------------------------------------------------------
+! URxvt
+
+URxvt*transparent: true
+URxvt*shading: 50
+URxvt*blurRadius: 50
+URxvt*foreground: #AAFFFFFF
+URxvt*font: xft:Ubuntu Mono:style=Regular:size=10
+URxvt*saveLines: 10000
+URxvt*scrollBar: true
+URxvt*scrollBar_right: true
+URxvt*scrollColor: #000000
+URxvt*scrollBar_floating: true
+URxvt*scrollstyle: plain
+
+! ------------------------------------------------------------------------------
+! Couleurs de terminal
+
+! noir
+*.color0:       #151515
+*.color8:       #505050
+
+! rouge
+*.color1:       #fb9fb1
+*.color9:       #fb9fb1
+
+! vert
+*.color2:       #acc267
+*.color10:      #acc267
+
+! jaune
+*.color3:       #ddb26f
+*.color11:      #ddb26f
+
+! bleu
+*.color4:       #6fc2ef
+*.color12:      #6fc2ef
+
+! magenta
+*.color5:       #e1a3ee
+*.color13:      #e1a3ee
+
+! cyan
+*.color6:       #12cfc0
+*.color14:      #12cfc0
+
+! blanc
+*.color7:       #d0d0d0
+*.color15:      #f5f5f5
+
+! ------------------------------------------------------------------------------
+! ROFI 
+
+rofi.color-enabled: true
+rofi.color-window: argb:72000000, #6e9bad, #6e9bad
+rofi.color-normal: argb:7e000000, #ffffff, argb:83000000, argb:7e586e75, #ffffff
+rofi.color-active: #6e9bad, #ffffff, #6e9bad, #97d6f0, #000000
+rofi.color-urgent: argb:86000000, #dc322f, argb:81000000, argb:89dc322f, #fdf6e3

@@ -1,0 +1,12 @@
+[module/battery]
+type = internal/battery
+
+full-at = 99
+
+battery = BAT0
+adapter = AC0
+
+poll-interval = 1
+
+label-charging =  %percentage%%
+label-discharging =  %percentage%%
