@@ -19,7 +19,7 @@ Des polices d'écritures sont elles aussi nécessaires :
 Après avoir au préalable installé les paquets demandés, vous pouvez copier les configurations dans les endroits pour :
 
 - Le contenu de [`/config/i3`](https://github.com/orakless/i3-config/tree/master/configs/i3) va dans `~/.config/i3/`
-- Le contenu de [`/config/polybar`]() va dans `~/.config/polybar/`
+- Le contenu de [`/config/polybar`](https://github.com/orakless/i3-config/tree/master/configs/polybar) va dans `~/.config/polybar/`
 - Le dossier [`/scripts`](https://github.com/orakless/i3-config/tree/master/scripts) et le fichier [`Xdefaults`](https://github.com/orakless/i3-config/blob/master/Xdefaults) vont dans votre home (`~/.scripts`et `~/.Xdefaults` au lieu de `/scripts`/`Xdefaults`)
 - N'oubliez pas d'ajouter le point devant le fichier `Xdefaults` et le dossier `scripts` ! Sinon, ça ne fonctionnera pas.
 ## Conseil
