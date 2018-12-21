@@ -1,4 +1,4 @@
-![logo](https://github.com/orakless/i3-config/raw/master/logo.png)
+<div align="center"><img src="https://github.com/orakless/i3-config/raw/master/logo.png"/></div><br>
 
 ## Installation des paquets
 
