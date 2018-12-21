@@ -1,0 +1,47 @@
+;==========================================================
+;
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;
+;   To learn more about how to configure Polybar
+;   go to https://github.com/jaagr/polybar
+;
+;   The README contains alot of information
+;
+;==========================================================
+
+[bar/transparent]
+include-file = ~/.config/polybar/bar/transparent
+
+[module/i3]
+include-file = ~/.config/polybar/modules/generaux/i3wm
+
+[module/menu-power]
+include-file = ~/.config/polybar/modules/generaux/power-button
+
+[module/hour]
+include-file = ~/.config/polybar/modules/generaux/hour
+
+[module/archlogo]
+include-file = ~/.config/polybar/modules/generaux/archlogo
+
+[module/focusedwindows]
+include-file = ~/.config/polybar/modules/generaux/xwindows
+
+[module/battery]
+include-file = ~/.config/polybar/modules/generaux/battery
+
+[module/finder]
+include-file = ~/.config/polybar/modules/generaux/finder
+
+[module/ram]
+include-file = ~/.config/polybar/modules/generaux/ram
+
+[module/pulseaudio]
+include-file = ~/.config/polybar/modules/generaux/pulseaudio

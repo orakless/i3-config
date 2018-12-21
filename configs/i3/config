@@ -15,10 +15,6 @@ set $mod Mod4
 # is used in the bar {} block below.
 font pango:Ubuntu Mono 8
 
-# This font is widely installed, provides lots of unicode glyphs, right-to-left
-# text rendering and scalability on retina/hidpi displays (thanks to pango).
-#font pango:DejaVu Sans Mono 8
-
 # Before i3 v4.8, we used to recommend this one as the default:
 # font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 # The font above is very space-efficient, that is, it looks good, sharp and
@@ -38,9 +34,6 @@ bindsym $mod+Shift+A kill
 # start dmenu (a program launcher)
 bindsym $mod+d exec rofi -show run 
 # There also is the (new) i3-dmenu-desktop which only displays applications
-# shipping a .desktop file. It is a wrapper around dmenu, so you need that
-# installed.
-# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
 bindsym $mod+j focus left
@@ -164,14 +157,15 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 mode "screenshot" {
-	# Fullscreen
-	bindsym f exec gnome-screenshot
+    # Fullscreen
+    bindsym f exec scrot 'Screenshot_%Y-%m-%d_%H:%M:%S_$wx$h.png' -e 'xclip -selection clipboard -t "image/png" < $f && mv $f ~/Screenshots/ && notify-send scrot "Capture prise"'
 
-	# Fenêtre
-	bindsym w exec gnome-screenshot -w
+    # Fenêtre
 
-	# Sélection
-	bindsym --release s exec gnome-screenshot -a
+    bindsym w exec scrot -u  'Screenshot_%Y-%m-%d_%H:%M:%S_$wx$g.png' -e 'xclip -selection clipboard -t "image/png" < $f && mv $f ~/Screenshots/ &&  notify-send scrot "Capture prise"'
+
+    # Sélection
+    bindsym --release s exec scrot -s 'Screenshot_%Y-%m-%d_%H:%M:%S_$wx$h.png' -e 'xclip -selection clipboard -t "image/png" < $f && mv $f ~/Screenshots/ && notify-send scrot "Capture prise"'
 
         # back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"
@@ -180,12 +174,10 @@ mode "screenshot" {
 }
 bindsym $mod+Print mode "screenshot"
 
-
 # Autorun
-exec_always compton
 exec_always nitrogen --restore
 exec_always ~/.scripts/launchbar.sh
-
+exec_always dunst
 # i3gaps
 gaps inner 10
 gaps outer 10
@@ -199,3 +191,9 @@ workspace "9" gaps outer 0
 workspace "9" gaps inner 0
 
 workspace "10" gaps outer 100
+
+# class		        border	   background text    indicator child_border
+client.focused 		#FFFF00    #222222    #ffffff #ffffff   #AAAA00
+client.focused_inactive #FF9A9A    #222222    #ffffff #ffffff   #AA5A00
+client.unfocused 	#111111    #222222    #ffffff #ffffff   #111111
+client.urgent 		#FF0000    #222222    #ffffff #ffffff   #AA0000
