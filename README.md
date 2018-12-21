@@ -1,4 +1,4 @@
-# i3-config
+![logo](https://github.com/orakless/i3-config/raw/master/i3-config.png)
 
 ## Installation des paquets
 
