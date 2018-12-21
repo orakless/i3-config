@@ -8,9 +8,9 @@ Divers paquets sont nécessaires, dont voici une liste de paquets à installer a
 * [Polybar](https://github.com/jaagr/polybar) : *La barre d'état*
 * [rofi](https://github.com/DaveDavenport/rofi) : *Pour lancer les applications*
 * [URxvt](http://software.schmorp.de/pkg/rxvt-unicode.html) : *L'émulateur de terminal*
-* [scrot](https://github.com/GNOME/gnome-screenshot) : *Pour les screenshots*
-* [xclip]() : *Pour copier les screenshot dans le presse-papier*
-* [dunst]() : *Pour afficher les notifications*
+* [scrot](https://github.com/dreamer/scrot) : *Pour les screenshots*
+* [xclip](https://github.com/astrand/xclip) : *Pour copier les screenshot dans le presse-papier*
+* [dunst](https://github.com/dunst-project/dunst) : *Pour afficher les notifications*
 
 Des polices d'écritures sont elles aussi nécessaires :
 * [Font Awesome](https://fontawesome.com/) : *Pour les icônes diverses sur la barre d'état*
