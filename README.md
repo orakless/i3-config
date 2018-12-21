@@ -11,6 +11,7 @@ Divers paquets sont nécessaires, dont voici une liste de paquets à installer a
 * [scrot](https://github.com/GNOME/gnome-screenshot) : *Pour les screenshots*
 * [xclip]() : *Pour copier les screenshot dans le presse-papier*
 * [dunst]() : *Pour afficher les notifications*
+
 Des polices d'écritures sont elles aussi nécessaires :
 * [Font Awesome](https://fontawesome.com/) : *Pour les icônes diverses sur la barre d'état*
 * [Ubuntu Font Family](https://design.ubuntu.com/font/) : *Pour la barre d'état et l'émulateur de terminal*
