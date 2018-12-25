@@ -13,9 +13,9 @@ Divers paquets sont nécessaires, dont voici une liste de paquets à installer a
 * [dunst](https://github.com/dunst-project/dunst) : *Pour afficher les notifications*
 
 Des polices d'écritures sont elles aussi nécessaires :
-* [Font Awesome](https://fontawesome.com/) : *Pour les icônes diverses sur la barre d'état*
-* [Ubuntu Font Family](https://design.ubuntu.com/font/) : *Pour la barre d'état et l'émulateur de terminal*
-* [Font Logos](https://github.com/lukas-w/font-logos) : *Pour le logo Tux sur la barre d'état*
+* [Fira Code](https://www.archlinux.org/packages/community/any/ttf-fira-code/) : *Pour les icônes diverses sur la barre d'état*
+* [Material Design Icons (git)](https://aur.archlinux.org/packages/ttf-material-design-icons-git/) : *Pour la barre d'état et l'émulateur de terminal*
+
 ## Ajouter les configurations
 Après avoir au préalable installé les paquets demandés, vous pouvez copier les configurations dans les endroits pour :
 
@@ -25,5 +25,5 @@ Après avoir au préalable installé les paquets demandés, vous pouvez copier l
 - Le dossier [`/scripts`](https://github.com/orakless/i3-config/tree/low-config/scripts) et le fichier [`Xdefaults`](https://github.com/orakless/i3-config/blob/low-config/Xdefaults) vont dans votre home (`~/.scripts`et `~/.Xdefaults` au lieu de `/scripts`/`Xdefaults`)
 - N'oubliez pas d'ajouter le point devant le fichier `Xdefaults` et le dossier `scripts` ! Sinon, ça ne fonctionnera pas.
 
-## Rendu de la configuration
+## Rendu de la configuration (pas à jour!!)
 ![Rendu](https://github.com/orakless/i3-config/raw/low-config/rendu.png)
