@@ -13,8 +13,9 @@ Divers paquets sont nécessaires, dont voici une liste de paquets à installer a
 * [dunst](https://github.com/dunst-project/dunst) : *Pour afficher les notifications*
 
 Des polices d'écritures sont elles aussi nécessaires :
-* [Fira Code](https://www.archlinux.org/packages/community/any/ttf-fira-code/) : *Pour les icônes diverses sur la barre d'état*
-* [Material Design Icons (git)](https://aur.archlinux.org/packages/ttf-material-design-icons-git/) : *Pour la barre d'état et l'émulateur de terminal*
+* [Fira Code](https://www.archlinux.org/packages/community/any/ttf-fira-code/) : *Pour la barre d'état*
+* [Material Design Icons (git)](https://aur.archlinux.org/packages/ttf-material-design-icons-git/) : *Pour les diversesicônes sur la barre d'état*
+* [Ubuntu Font Family](https://design.ubuntu.com/font/) : *Pour l'émulateur de terminal*
 
 ## Ajouter les configurations
 Après avoir au préalable installé les paquets demandés, vous pouvez copier les configurations dans les endroits pour :
