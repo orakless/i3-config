@@ -16,11 +16,20 @@
 ;
 ;==========================================================
 
-[bar/transparent]
-include-file = ~/.config/polybar/bar/transparent
+; Barres
+[bar/upper]
+include-file = ~/.config/polybar/bar/upper
 
+[bar/bottom]
+include-file = ~/.config/polybar/bar/bottom
+
+
+; Modules
 [module/i3]
 include-file = ~/.config/polybar/modules/generaux/i3wm
+
+[module/xkeyboard]
+include-file = ~/.config/polybar/modules/generaux/xkeyboard
 
 [module/menu-power]
 include-file = ~/.config/polybar/modules/generaux/power-button
@@ -45,3 +54,26 @@ include-file = ~/.config/polybar/modules/generaux/ram
 
 [module/pulseaudio]
 include-file = ~/.config/polybar/modules/generaux/pulseaudio
+
+[module/cpu]
+include-file = ~/.config/polybar/modules/generaux/cpu
+
+[module/ethernet]
+include-file = ~/.config/polybar/modules/generaux/ethernet
+
+[module/wifi]
+include-file = ~/.config/polybar/modules/generaux/wifi
+
+[module/temperature]
+include-file = ~/.config/polybar/modules/generaux/temperature
+
+[module/date]
+include-file = ~/.config/polybar/modules/generaux/date
+
+; Icônes
+
+[module/ramicon]
+include-file = ~/.config/polybar/modules/generaux/icons/ram
+
+[module/cpuicon]
+include-file = ~/.config/polybar/modules/generaux/icons/cpu

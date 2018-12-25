@@ -4,7 +4,7 @@ menu-0-0-exec = shutdown now
 menu-0-1 = Reboot
 menu-0-1-exec = reboot
 
-label-open = 
+label-open = 
 label-close = 
 
 label-separator = " | "

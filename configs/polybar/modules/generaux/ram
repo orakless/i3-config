@@ -33,5 +33,5 @@ interval = 1
 ;   %gb_swap_free%
 ;   %gb_swap_used%
 
-label = RAM %gb_used%/%gb_total% (%percentage_free%% free)
-
+label = %gb_used%/%gb_total% (%percentage_free%% free)
+label-foreground = #BBBBBB

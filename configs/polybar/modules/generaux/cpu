@@ -1,0 +1,9 @@
+type = internal/cpu
+
+; Seconds to sleep between updates
+; Default: 1
+interval = 0.5
+
+format = <label>
+label = %percentage%%
+label-foreground = #BBBBBB

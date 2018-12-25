@@ -10,7 +10,7 @@ label-foreground = #AAAAAA
 ; Available tokens:
 ;   %title%
 ; Default: %title%
-label = %title%
+label =  %title%
 label-maxlen = 30
 
 
@@ -20,3 +20,5 @@ label-maxlen = 30
 ;   None
 label-empty = None
 label-empty-foreground = #707880
+
+click-left = rofi -show run

@@ -1,0 +1,6 @@
+type = internal/date
+
+interval = 1.0
+time = %A, %d %b %Y
+label = %time%
+label-foreground = #999999

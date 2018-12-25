@@ -1,0 +1,30 @@
+type = internal/network
+interface = wls33
+
+; Seconds to sleep between updates
+; Default: 1
+interval = 1
+
+; Accumulate values from all interfaces
+; when querying for up/downspeed rate
+; Default: false
+accumulate-stats = true
+
+; Consider an `UNKNOWN` interface state as up.
+; Some devices have an unknown state, even when they're running
+; Default: false
+unknown-as-up = true
+
+format-connected = <ramp-signal> <label-connected>
+
+; Available tags:
+;   <label-disconnected> (default)
+format-disconnected = <label-disconnected>
+
+label-connected = %essid% 
+
+ramp-signal-0 = 蠟
+ramp-signal-1 = 襤
+ramp-signal-2 = 嵐
+ramp-signal-3 = 爛
+ramp-signal-4 = 冷
