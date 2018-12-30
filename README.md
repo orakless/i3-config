@@ -27,8 +27,8 @@ Après avoir au préalable installé les paquets demandés, vous pouvez copier l
 - N'oubliez pas d'ajouter le point devant le fichier `Xdefaults` et le dossier `scripts` ! Sinon, ça ne fonctionnera pas.
 
 ## Conseils
-- Renommez les interfaces présentes dans /.config/polybar/modules/wifi et /.config/polybar/modules/ethernet par rapport aux votres!
-- Suivez les indications dans /.config/polybar/modules/temperature si la température de votre premier coeur de votre processeur n'est pas affichée
+- Renommez les interfaces présentes dans /.config/polybar/modules/generaux/wifi et /.config/polybar/modules/generaux/ethernet par rapport aux votres!
+- Suivez les indications dans /.config/polybar/modules/generaux/temperature si la température de votre premier coeur de votre processeur n'est pas affichée
 
 ## Rendu de la configuration (pas à jour!!)
 ![Rendu](https://github.com/orakless/i3-config/raw/low-config/rendu.png)
